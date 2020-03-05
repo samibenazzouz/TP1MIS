@@ -46,7 +46,7 @@ public class CompteCourant extends Compte {
 		}
 			
 		else {
-			throw new Exception("Operation impossible")
+			throw new Exception("Operation impossible");
 		}
 		
 	}

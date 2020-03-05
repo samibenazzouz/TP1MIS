@@ -9,6 +9,11 @@ public class Versement extends Operation{
 		
 		// TODO Auto-generated constructor stub
 	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Op[Numero: "+this.getNumero()+", Date:"+this.getDateCreation()+", Montant: "+this.getMontant()+", Type: Crédit]";
+	}
 	
 	
 

@@ -15,6 +15,24 @@ public abstract class Operation {
 		this.dateCreation = dateCreation;
 		this.montant = montant;
 	}
+	public LocalDate getDateCreation() {
+		return dateCreation;
+	}
+	public int getNumero() {
+		return numero;
+	}
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+	public double getMontant() {
+		return montant;
+	}
+	public void setMontant(double montant) {
+		this.montant = montant;
+	}
+	public void setDateCreation(LocalDate dateCreation) {
+		this.dateCreation = dateCreation;
+	}
 	
 	
 	

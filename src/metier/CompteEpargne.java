@@ -3,6 +3,7 @@ package metier;
 import java.time.LocalDate;
 
 public class CompteEpargne extends Compte {
+	@SuppressWarnings("unused")
 	private final static double taux= 0.05;
 	@Override
 	public void retirer(double montant) {

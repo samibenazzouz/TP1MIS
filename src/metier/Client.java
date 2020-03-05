@@ -20,5 +20,10 @@ public class Client {
 	public Client() {
 		super();
 	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.name;
+	}
 	
 }

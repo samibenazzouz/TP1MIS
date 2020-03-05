@@ -59,4 +59,15 @@ public abstract class Compte {
 		this.owner = owner;
 	}
 	
+	public void afficheRelever(LocalDate from, LocalDate to) {
+		for (Operation operation : this.operations) {
+			if (operation.getDateCreation().isAfter(from) && operation.getDateCreation().isBefore(to)) {
+				System.out.println(operation);
+				
+			}
+			
+		}
+	}
+	
+	
 }

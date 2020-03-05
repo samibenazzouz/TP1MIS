@@ -10,7 +10,7 @@ public abstract class Compte {
 	private Client owner;
 	protected List<Operation> operations = new ArrayList<Operation>();
 	
-	public abstract void retirer(double montant);
+	public abstract void retirer(double montant) throws Exception;
 	
 	public void deposer(double montant) {
 		this.solde = this.solde + montant;
